@@ -1,0 +1,41 @@
+#info { border: dotted 4px rgb(153, 137, 199);;margin: 60px; padding: 30px; background-color: rgb(190, 147, 147);}
+#inscript { border: dotted 4px rgb(150, 204, 229);;margin: 60px; padding: 30px; background-color: rgb(137, 192, 127);}
+#pret {  border: dotted 4px rgb(202, 215, 221);;margin: 60px; padding: 30px; background-color: rgb(175, 164, 104); }
+body {
+    background-color: rgb(201, 205, 206);
+  }
+  section { 
+    font-family: Arial; 
+    background-color: rgb(228, 238, 211);}
+     #formulaire { 
+    position: relative; margin : auto; 
+    width: 300px;}
+     #lbSaisie { 
+    display: inline-block; width: 150px; 
+    line-height : 30px; }
+     .bouton { 
+    width : 360px; } 
+    .entoureImg{ 
+        float: right; }
+    section { 
+        font-family : Arial; 
+        background-color: rgb(168, 155, 120); }
+    #fondPestin { 
+        background-image: url('../images/style.jpg'); 
+            color: rgb(148, 94, 170); 
+            font-size: 22px; 
+            font-style: oblique; 
+            text-align: left; 
+            font-weight: bold;}
+
+ 
+body { font-size:100%; ;}
+ @media screen and (max-width: 980px), handheld and (max-width: 980px) { 
+    body { 
+        font-size:130%; 
+         background-color: #c5c2d1; }
+     .affichage { 
+        display: none; 
+        } 
+        
+    }
