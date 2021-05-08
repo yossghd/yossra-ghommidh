@@ -1,0 +1,40 @@
+
+     <!DOCTYPE html> 
+     <html lang="fr"> <head> <meta charset="UTF-8" name="viewport" content="width=device-width" />  /> 
+      
+    <link rel="stylesheet" type="text/css" href="styles/mesStyles.css" /> 
+    <script src="scripts/mesScripts3.js" type="text/javascript"></script> 
+    <title>Catalogue</title>
+    </head> <body> 
+    <header> 
+    <div class="entoureImg"> 
+    <img alt="Logo" src="images/Livre3.png" /> </div> <h1>Bienvenue sur le portail documentaire...</h1> 
+    <hr /> </header> 
+    <nav> <a href="accueil.html">Accueil</a> 
+        <a href="catalogue.html">Catalogue</a> 
+        <a href="login.html">Mon compte</a> 
+        <a href="infoPratique.html">Horaires</a> </nav> 
+    <section> 
+    <h2>Notre catalogue</h2> <div id="formulaire"> 
+    <form action="catalogue.html" method="post"> <h3>Choisir votre type de support : </h3> 
+    <fieldset> <legend align="top">Livres</legend><br> 
+    <select name="txLivres"> 
+    <option>Adulte</option> 
+    <option>Adolescent</option> <option> Jeunesse</option> 
+    </select> </fieldset> 
+    <fieldset> <legend align="top">Revues</legend><br> 
+    <input list="revues" name="LiRevues" id="LiRevues"> <datalist id="revues"> 
+    <option>Journalière</option> <option>Hebdomadaire</option> 
+    <option>Mensuelle</option> </datalist> </fieldset> 
+    <fieldset> <legend align="top">Numériques</legend><br> 
+    <input type="radio" name="rdNumerique" value="CD" id="rdNumCD"> 
+    <label for="rdNumerique-CD" >CD</label> 
+    <input type="radio" name="rdNumerique" value="DVD" id="rdNumDVD"> <label for="rdNumerique-DVD">DVD</label> 
+    </fieldset> <br/> 
+    <input type="submit" 
+    value="Soumettre" class="bouton" </form> </div> </section> 
+    <footer id="fondPestin"> 
+        <hr /> <p>Plestin-Les-Grèves, Levraoueg <span class="mailto"> <a href=mailto: ghommidhyossra@gmail.com >Nous écrire</a> 
+        </span></p> </footer> 
+        
+</body> </html>         
